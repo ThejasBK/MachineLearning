@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv(r'C:\Users\theja\Desktop\Data Science\Datasets\winequality.csv')
+data = pd.read_csv('winequality.csv')
 data.head()
 import seaborn as sns
 import matplotlib.pyplot as plt
